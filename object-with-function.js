@@ -4,11 +4,8 @@ var airplane = {
     speed: 42,
     takeOff: function () {
         print(this.speed);
-        var optional = arguments[0];
-        if (optional)
-            print(optional);
-        else
-            print("nothing");
+        var optional = arguments[0] || "nothing";
+        print(optional);
     }
 };
 
