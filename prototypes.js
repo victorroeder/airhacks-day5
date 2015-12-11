@@ -4,6 +4,12 @@ Array.prototype.dump = function () {
     }
 };
 
-['1', 2, "three"].dump();
+var custom = ['1', 2, "three"];
 
+custom.dumper = function () {
+    print("something");
+};
+
+custom.dumper();
+custom.dump();
 
