@@ -8,10 +8,12 @@ for (var i = 0; i < list.length; i++) {
 list["developer"] = "duke";
 
 list[42] = "the answer";
+list['41'] = "interesting"; //strange coercion
 
 print("-----");
-for (element in list) {
+for (var element in list) {
     console.log(element, list[element]);
 }
+
 
 
