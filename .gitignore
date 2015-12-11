@@ -3,3 +3,4 @@ target/
 .DS_Store
 /gulp-sample/bower_components/
 /prototype/nbproject/private/
+/javabind/nbproject/
