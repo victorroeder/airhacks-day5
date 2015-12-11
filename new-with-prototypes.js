@@ -1,7 +1,8 @@
 
-var Airplane = function (s) {
+function Airplane(s) {
     this.speed = s;
-};
+
+}
 
 Airplane.prototype.takeOff = function () {
     print("Take off " + this.speed);

@@ -1,5 +1,11 @@
-//'use strict'
+'use strict'
 var visibleInFunction = "kkk";
+
+
+var experiment = {
+    name: (this.hello = "hey from object")
+}
+
 
 function hey(input) {
     var msg = "hello world";
@@ -17,3 +23,9 @@ function hey(input) {
 var another = new hey("joe");
 print(another.name);
 print(hey.msg);
+print(hey.name);
+print(typeof hey);
+print(hey.toString())
+
+print(experiment.name);
+print(hello);
